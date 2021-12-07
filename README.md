@@ -65,6 +65,3 @@ PDF Ticket Download : <a href="https://github.com/AkashSCIENTIST/RailwayTicketMa
 
 ### Feedback Form
 <img src="https://github.com/AkashSCIENTIST/RailwayTicketManager/blob/master/ss/feedback%20form.png">
-
-### Credits
-<img src="https://github.com/AkashSCIENTIST/RailwayTicketManager/blob/master/ss/credits.png">
