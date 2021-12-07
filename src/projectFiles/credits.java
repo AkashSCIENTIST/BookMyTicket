@@ -55,23 +55,23 @@ public class credits extends JFrame
         credit2.setMaximumSize(new Dimension(Integer.MAX_VALUE, credit2.getMinimumSize().height));
         panel2.add(credit2);
 
-        CreditPanel credit3 = new CreditPanel("A Mohammed Aswir (20I302)");
+        CreditPanel credit3 = new CreditPanel("A Mohammed Aswir");
         credit3.setMaximumSize(new Dimension(Integer.MAX_VALUE, credit3.getMinimumSize().height));
         panel2.add(credit3);
 
-        CreditPanel credit4 = new CreditPanel("Akash S P (20I306)");
+        CreditPanel credit4 = new CreditPanel("Akash S P");
         credit4.setMaximumSize(new Dimension(Integer.MAX_VALUE, credit4.getMinimumSize().height));
         panel2.add(credit4);
 
-        CreditPanel credit5 = new CreditPanel("Atheeithan T A(20I311)");
+        CreditPanel credit5 = new CreditPanel("Atheeithan T A");
         credit5.setMaximumSize(new Dimension(Integer.MAX_VALUE, credit5.getMinimumSize().height));
         panel2.add(credit5);
 
-        CreditPanel credit6 = new CreditPanel("B Srivathsan (20I312)");
+        CreditPanel credit6 = new CreditPanel("B Srivathsan");
         credit6.setMaximumSize(new Dimension(Integer.MAX_VALUE, credit6.getMinimumSize().height));
         panel2.add(credit6);
 
-        CreditPanel credit7 = new CreditPanel("Logeshwaran C (20I329)");
+        CreditPanel credit7 = new CreditPanel("Logeshwaran C");
         credit7.setMaximumSize(new Dimension(Integer.MAX_VALUE, credit7.getMinimumSize().height));
         panel2.add(credit7);
 
