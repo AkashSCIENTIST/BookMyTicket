@@ -27,7 +27,7 @@
 
 ### Download Ticket
 <img src="https://github.com/AkashSCIENTIST/RailwayTicketManager/blob/master/ss/download%20ticket.png">
-PDF Ticket Download : *[Ticket](https://github.com/AkashSCIENTIST/RailwayTicketManager/blob/master/ss/Er208Jo.pdf)*
+PDF Ticket Download : <a href="https://github.com/AkashSCIENTIST/RailwayTicketManager/blob/master/ss/Er208Jo.pdf"> Ticket </a>
 
 ### Email Notification
 <img src="https://github.com/AkashSCIENTIST/RailwayTicketManager/blob/master/ss/email%20confirmation.png">
