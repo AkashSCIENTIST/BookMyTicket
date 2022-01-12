@@ -3,6 +3,14 @@
 
 Ticket booking platform to book tickets for *point-to-point* trains running between 5 major junctions of Tamil Nadu. This platform is made using Java Swing, JDBC API, Derby DB, Java Mail, PDF maker etc. Internally this platform has all basic java concepts ranging from OOP concepts to Utility classes.
 
+### Authors:
+
+- [Mohammed Aswir A](https://github.com/MohammedAswir)
+- [Akash S P](https://github.com/AkashSCIENTIST)
+- [Atheeithan T](https://github.com/Atheeithan)
+- [Srivathsan B](https://github.com/Srivathsan27)
+- [Logeshwaran C](https://github.com/LOGESHWARAN-C)
+
 ### Preliminary steps:
 - Add the external *.jar* files to the IDE
 - Change the *IMAGE_FOLDER* by absolute path
@@ -44,7 +52,7 @@ PDF Ticket Download : <a href="https://github.com/AkashSCIENTIST/RailwayTicketMa
 <img src="https://github.com/AkashSCIENTIST/RailwayTicketManager/blob/master/ss/check%20by%20phone%20numbers.png">
 
 #### Output (For checking by Phone Number)
-<ing src="https://github.com/AkashSCIENTIST/RailwayTicketManager/blob/master/ss/check%20by%20phone%20numbers%20op.png">
+<img src="https://github.com/AkashSCIENTIST/RailwayTicketManager/blob/master/ss/check%20by%20phone%20numbers%20op.png">
 
 ### Ticket Cancellation Login
 <img src="https://github.com/AkashSCIENTIST/RailwayTicketManager/blob/master/ss/cancellation%20new%20ip.png">
