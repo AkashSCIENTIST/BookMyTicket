@@ -1,4 +1,8 @@
-# RailwayTicketManager
+# Book My Ticket
+### Introduction:
+
+Ticket booking platform to book tickets for *point-to-point* trains running between 5 major junctions of Tamil Nadu. This platform is made using Java Swing, JDBC API, Derby DB, Java Mail, PDF maker etc. Internally this platform has all basic java concepts ranging from OOP concepts to Utility classes.
+
 ### Preliminary steps:
 - Add the external *.jar* files to the IDE
 - Change the *IMAGE_FOLDER* by absolute path
