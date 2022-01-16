@@ -6,3 +6,5 @@ public class testingClass {
 		System.out.println(now.getDayOfWeek());
 	}
 }
+
+// Logesh
