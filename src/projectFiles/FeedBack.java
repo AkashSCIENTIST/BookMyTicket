@@ -11,16 +11,16 @@ JTextArea tf1;
 FeedBack(){    
 super("Feedback Form");    
 setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-Icon _1s = new ImageIcon("<IMAGE_FOLDER>\\worst.jpeg");
+Icon _1s = new ImageIcon("src\\worst.jpeg");
 rb1=new JRadioButton(_1s);    
 //rb1.setPreferredSize(new Dimension(50,50));
-Icon _2s = new ImageIcon("<IMAGE_FOLDER>\\bad.JPEG");   
+Icon _2s = new ImageIcon("src\\bad.JPEG");   
 rb2=new JRadioButton(_2s);    
-Icon _3s = new ImageIcon("<IMAGE_FOLDER>\\meh.jpeg");
+Icon _3s = new ImageIcon("src\\meh.jpeg");
 rb3=new JRadioButton(_3s);    
-Icon _4s = new ImageIcon("<IMAGE_FOLDER>\\nice.jpeg");
+Icon _4s = new ImageIcon("src\\nice.jpeg");
 rb4=new JRadioButton(_4s);    
-Icon _5s = new ImageIcon("<IMAGE_FOLDER>\\amazing.jpeg");
+Icon _5s = new ImageIcon("src\\amazing.jpeg");
 rb5=new JRadioButton(_5s);    
       
 JLabel label = new JLabel("How was your overall experience?");

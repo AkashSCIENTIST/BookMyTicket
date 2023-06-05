@@ -5,6 +5,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.awt.Color;
 
+@SuppressWarnings("serial")
 class DemoPanel extends JPanel 
 {
     JLabel t;
@@ -18,13 +19,16 @@ class DemoPanel extends JPanel
         add(t);
     }
 }
+
+@SuppressWarnings("serial")
 public class processing extends JFrame 
 {
 	private static final Color bg = new Color(216, 245, 211);
-    processing(frameManager manager)
+    
+	processing(frameManager manager)
     {
     	manager.setFrameIcon(this);
-        Image image= Toolkit.getDefaultToolkit().getImage("<IMAGE_FOLDER>\\indrail.png");  
+        Image image= Toolkit.getDefaultToolkit().getImage("src\\indrail.jpg");  
         this.setIconImage(image);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         this.getContentPane().setBackground(bg);
@@ -43,7 +47,7 @@ public class processing extends JFrame
         g.ipady = 20;
         add(processing,g);
 
-        JLabel Buffering = new JLabel(new ImageIcon("<IMAGE_FOLDER>\\buffering.gif"));
+        JLabel Buffering = new JLabel(new ImageIcon("src\\buffering.gif"));
         g.fill = GridBagConstraints.HORIZONTAL;
         g.gridx = 1;
         g.gridy = 1;
@@ -55,6 +59,6 @@ public class processing extends JFrame
     }
     public static void main(String args[]) 
     {
-//        new processing();
+        new processing();
     }
 }

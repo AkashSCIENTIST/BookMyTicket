@@ -27,7 +27,6 @@ class validEMail{
 }
 
 class GroupButtonUtils {
-	
     public static String getSelectedButtonText(ButtonGroup buttonGroup) {
         for (Enumeration<AbstractButton> buttons = buttonGroup.getElements(); buttons.hasMoreElements();) {
             AbstractButton button = buttons.nextElement();
@@ -41,6 +40,7 @@ class GroupButtonUtils {
     }
 }
 
+@SuppressWarnings("serial")
 public class PassengerDetailsFrame extends JFrame{
 	private static final Color bg = new Color(216, 245, 211);
 	private class text extends JTextField {
@@ -65,7 +65,6 @@ public class PassengerDetailsFrame extends JFrame{
 			add(t);
 		}
 	}
-
 
 	frameManager m;
     JLabel reservation_label, adults, age_label, adhaar_label, childs, name_label, phoneNumber_label, email_label, address_label, gender_label;

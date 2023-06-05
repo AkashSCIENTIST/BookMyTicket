@@ -18,8 +18,8 @@ public class NavigationFrame extends JFrame {
     NavigationFrame(frameManager manager)
     {
     	
-        Image image = Toolkit.getDefaultToolkit().getImage("<IMAGE_FOLDER>\\bg_train.png"); 
-        Image imagebg = Toolkit.getDefaultToolkit().getImage("<IMAGE_FOLDER>\\bg_train.png");  
+        Image image = Toolkit.getDefaultToolkit().getImage("src\\bg_train.png"); 
+        Image imagebg = Toolkit.getDefaultToolkit().getImage("src\\bg_train.png");  
         this.setIconImage(image);
         setContentPane(new JLabel(new ImageIcon(imagebg)));
         setSize(2000,2000);

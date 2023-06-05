@@ -103,7 +103,7 @@ public class frameManager {
 		String month[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
 		int i=1;
 		
-		File file = new File("<IMAGE_FOLDER>\\lastTicket.txt");
+		File file = new File("src\\lastTicket.txt");
 		
 		try {
 			FileReader fread = new FileReader(file);
@@ -133,7 +133,7 @@ public class frameManager {
 	}
 	public void updateFile() {
 		try {
-			FileWriter fout = new FileWriter("<IMAGE_FOLDER>\\lastTicket.txt");
+			FileWriter fout = new FileWriter("src\\lastTicket.txt");
 			fout.write(ticketID);
 			fout.close();
 		}
@@ -297,7 +297,7 @@ public class frameManager {
 	
 	
 	public void setFrameIcon(JFrame f)  {
-		f.setIconImage(new ImageIcon("<IMAGE_FOLDER>\\icon.png").getImage());
+		f.setIconImage(new ImageIcon("src\\icon.png").getImage());
 	}
 	public void initReceiptFrame(HashMap<String, String> details) throws SQLException, Exception {
 		System.out.println("\n\n details : "+details);
@@ -362,6 +362,7 @@ public class frameManager {
 		new pageFrame(this);
 	}
 	public static void main(String args[]) throws SQLException {
+		System.out.println("Working Directory = " + System.getProperty("user.dir"));
 //    	HashMap<String, String> passengerDetails = new HashMap<>();
 //    	
 //    	

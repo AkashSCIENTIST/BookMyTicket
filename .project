@@ -14,11 +14,15 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/filesToFix/xx</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Downloads/xx</locationURI>
-		</link>
-	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1644471023369</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>node_modules|.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
 </projectDescription>
